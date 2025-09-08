@@ -1,0 +1,9 @@
+C:\projects\python\pygame
+C:\projects\python\printing
+C:\projects\python\pygame\UltimatePygameIntro-main
+
+
+
+
+
+C:\Program Files\Sublime Text\sublime_text.exe

@@ -1,0 +1,62 @@
+
+def get_width_margin():
+    return int(( WIDTH - (ROWS * (BOXSIZE+GAPSIZE) ) ) / 2 ) 
+def get_height_margin():
+    return int(( HEIGHT - (COLUMNS * (BOXSIZE+GAPSIZE) ) ) / 2 ) 
+
+
+GAMETITLE = 'Memory Puzzle'        
+FPS = 30
+WIDTH = 640
+HEIGHT = 480
+BOXSIZE = 40
+GAPSIZE = 10 
+REVEALSPEED = 8
+ROWS = 10
+COLUMNS = 7
+XMARGIN = get_width_margin()
+YMARGIN = get_height_margin()
+
+DONUT = 'donut'
+SQUARE = 'square'
+DIAMOND = 'diamond'
+LINES = 'lines'
+OVAL = 'oval'
+
+
+
+
+
+GRAY = (100,100,100)
+NAVYBLUE = (60,60,100)
+WHITE = (255,255,255)
+RED = (255,0,0)
+GREEN = (0,255,0)
+BLUE = (0,0,255)
+YELLOW = (255,255,0)
+ORANGE = (255,128,0)
+PURPLE = (255,0,255)
+CYAN = (0,255,255)
+
+COLORNAMES = {
+    GRAY:'GRAY',
+    NAVYBLUE:'NAVYBLUE',
+    WHITE:'WHITE',
+    RED:'RED',
+    GREEN:'GREEN',
+    BLUE:'BLUE',
+    YELLOW:'YELLOW',
+    ORANGE:'ORANGE',
+    PURPLE:'PURPLE',
+    CYAN:'CYAN'
+}
+
+
+BGCOLOR = NAVYBLUE
+LIGHTBGCOLOR = GRAY
+BOXCOLOR = WHITE
+HIGHLIGHTCOLOR = BLUE
+
+
+ALLCOLORS = (RED,GREEN,BLUE,YELLOW,ORANGE,PURPLE,CYAN)
+ALLSHAPES = (DONUT,SQUARE,DIAMOND,LINES,OVAL)

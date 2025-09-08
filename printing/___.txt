@@ -1,0 +1,30 @@
+
+--dirs--
+C:\Users\grold\Downloads
+C:\projects\python\making_games_al_sweigart
+C:\projects\python\making_games_al_sweigart\memory_puzzle
+C:\projects\python\making_games_al_sweigart\module\my_code  
+C:\projects
+
+
+--files--
+makinggames.pdf
+print.py
+
+--apps--
+fsquirt.exe    
+FoxitPDFReader.exe
+notepad
+calc
+mspaint
+Photoshop.exe
+chrome.exe
+SCANUTILITY.exe
+taskkill /f /fi "status eq running"
+
+--open--
+explorer C:\Users\grold\Downloads
+FoxitPDFReader.exe C:\projects\python\making_games_al_sweigart\makinggames.pdf
+FoxitPDFReader.exe makinggames.pdf
+
+
